@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity
 
                 for (int i = 0, n = mDatas.size(); i < n; i++)
                 {
-                    mDatas.set(i, mDatas.get(i) + " changed Ok!");
+                    mDatas.set(i, mDatas.get(i) + " changed ");
                 }
                 mAdapter.notifyDataSetChanged();
                 break;
